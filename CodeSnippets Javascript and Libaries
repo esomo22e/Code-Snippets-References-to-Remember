@@ -1,0 +1,12 @@
+Code Snippets 
+
+Create a new array
+
+.map() function -> https://dev.to/sarah_chima/the-javascript-array-map-method-44m0
+let partyArray = stateData[state].total.party.map((partyElement) => partyElement.total)
+
+Create a max function 
+Math.max(...partyArray.map(o => o))
+
+&& apersand
+... -> spread operator -> shorthand for iterating over either arrays, plain objects, or arguments of a function.
